@@ -1,4 +1,4 @@
-// Carrega os gastos armazenados no navegador ou inicia com uma lista vazia// Carrega os gastos armazenados no navegador ou inicia com uma lista vazia
+// Carrega os gastos armazenados no navegador ou inicia com uma lista vazia
 let expenses = JSON.parse(localStorage.getItem('expenses')) || [];
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -76,4 +76,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   renderExpenses();
-});;
+});
